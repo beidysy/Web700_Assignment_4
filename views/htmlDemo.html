@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Demo - WEB700</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/theme.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Ahmadou Sy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item active"><a class="nav-link" href="/htmlDemo">HTML Demo</a></li>
+                <li class="nav-item"><a class="nav-link" href="/students/add">Add Student</a></li>
+
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="/students">Students</a></li>
+                <li class="nav-item"><a class="nav-link" href="/tas">Teaching Assistants</a></li>
+                <li class="nav-item"><a class="nav-link" href="/courses">Courses</a></li>
+                <!-- <li class="nav-item"><a class="nav-link" href="/students/add">Add Student</a></li> -->
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <main class="col-md-12">
+                <!-- Tables Section -->
+
+                <section>
+                    <!-- Header for the Tables section -->
+                    <h2>Tables Overview</h2>
+
+                    <!-- First Table -->
+                    <table class="table table-bordered">
+                        <caption>Product Inventory</caption>
+                        <thead>
+                            <tr>
+                                <th>Product ID</th>
+                                <th>Product Name</th>
+                                <th>Stock</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>001</td>
+                                <td>Keyboard</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>002</td>
+                                <td rowspan="2">Mouse (Wireless and Wired)</td>
+                                <td>75</td>
+                            </tr>
+                            <tr>
+                                <td>003</td>
+                                <td>30</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Total Products</td>
+                                <td>155</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                    <!-- Second Table -->
+                    <table class="table table-bordered">
+                        <caption>Office Locations</caption>
+                        <thead>
+                            <tr>
+                                <th>Location ID</th>
+                                <th>City</th>
+                                <th>Country</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>01</td>
+                                <td>New York</td>
+                                <td>USA</td>
+                            </tr>
+                            <tr>
+                                <td>02</td>
+                                <td colspan="2">Bamako, ML</td>
+                            </tr>
+                            <tr>
+                                <td>03</td>
+                                <td>Tokyo</td>
+                                <td>Japan</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Total Locations: 3</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                    <p>This section contains two tables displaying product inventory and office locations   .</p>
+                </section>
+             
+                  
+                
+                <!-- Lists Section -->
+                <section id="international-students-section">
+                    <h2>Guide for International Students in Canada</h2>
+                    <ol>
+                        <li>Top Universities and Colleges
+                            <ul>
+                                <li>University of Toronto</li>
+                                <li>Seneca College - Seneca Polytechnic</li>
+                                <li>McGill University</li>
+                            </ul>
+                        </li>
+                        <li>Student Visa Application Process</li>
+                        <li>Accommodation Options
+                            <ul>
+                                <li>On-campus Housing</li>
+                                <li>Off-campus Apartments</li>
+                                <li>Homestays</li>
+                            </ul>
+                        </li>
+                        <li>Work While Studying
+                            <ul>
+                                <li>On-campus Employment</li>
+                                <li>Off-campus Work Permit</li>
+                                <li>Co-op and Internships</li>
+                            </ul>
+                        </li>
+                        <li>Healthcare and Insurance</li>
+                    </ol>
+                    <p>Here's a quick guide for international students heading to Canada, with tips on schools, visas, places to live, jobs, and health stuff. 
+                        It's here to help you figure things out, no matter where you're at in your Canada study plan.</p>
+                </section>
+                
+                
+                
+                <!-- Images Section -->
+                <section id="images">
+                    <h2>Randomn Images</h2>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Snowboarder_in_halfpipe.jpg" alt="Snowboarder performing a trick in a halfpipe" width="300">
+                    <img src="travel.png" alt="travel logo">
+                    <img src="dog.png" alt="Friendly dog">
+
+                    <p>Randomn Images included </p>
+                </section>
+                
+                <!-- Audio Section -->
+                <section>
+                    <h2>Audio</h2>
+                    <audio controls>
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.mp3" type="audio/mpeg">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.ogg" type="audio/ogg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <p>This section include the audio provided in the assignments!</p>
+                </section>
+                
+                <!-- Video Section -->
+                <section>
+                    <h2>Video</h2>
+                    <video controls width="250">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.mp4" type="video/mp4">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.ogg" type="video/ogg">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.webm" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>This section includes an HTML5 video player that showcases video content. It uses multiple source files for broad browser support.</p>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
