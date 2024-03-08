@@ -1,3 +1,14 @@
+/*********************************************************************************
+*  WEB700 – Assignment 04
+*  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  No part 
+*  of this assignment has been copied manually or electronically from any other source 
+*  (including 3rd party web sites) or distributed to other students.
+* 
+*  Name: Ahmadou Sy Student ID: 138005236 Date: March 08 2024
+*
+*  Online (Cycliic) Link: https://good-red-perch-shoe.cyclic.app/
+*
+********************************************************************************/ 
 
 
 
